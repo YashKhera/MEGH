@@ -14,7 +14,6 @@ if str(ROOT) not in sys.path:  # `streamlit run app/...` puts app/ on path, not 
     sys.path.insert(0, str(ROOT))
 
 import streamlit as st
-import plotly.express as px
 import plotly.graph_objects as go
 
 from components.satellite_view import render as render_sat

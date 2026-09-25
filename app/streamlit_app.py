@@ -5,8 +5,14 @@ Backends: Local checkpoints (default) or FastAPI (http://127.0.0.1:8000).
 Case study: DEMO014 (best track skill +13.5 km over persistence on test).
 """
 import csv
+import sys
 import time
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:  # `streamlit run app/...` puts app/ on path, not repo root
+    sys.path.insert(0, str(ROOT))
+
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
@@ -16,7 +22,6 @@ from components.track_map import render as render_map
 from components.metrics import render as render_metrics
 from components.explanation import render as render_expl
 
-ROOT = Path(__file__).resolve().parents[1]
 CASE_STUDY = "DEMO014"
 
 st.set_page_config(page_title="MEGH", layout="wide")

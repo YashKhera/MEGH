@@ -1,14 +1,16 @@
 {
   "test_storms": [
-    "DEMO004",
-    "DEMO009",
-    "DEMO013",
-    "DEMO014"
+    "2021092N11096",
+    "2021322N11082",
+    "2022064N11084",
+    "2023157N12066",
+    "2023213N20092",
+    "2023337N12083"
   ],
-  "n_test_rows": 80,
+  "n_test_rows": 141,
   "classification": {
-    "macro_f1": 0.48338208325181836,
-    "vision_only_macro_f1": 0.5239854562514661,
+    "macro_f1": 0.695805594445952,
+    "vision_only_macro_f1": 0.7218188027096677,
     "labels": [
       "Cyclonic Storm",
       "Deep Depression",
@@ -20,13 +22,13 @@
     ]
   },
   "wind": {
-    "mae": 0.4536141869705405,
-    "rmse": 0.5653228166622005
+    "mae": 0.35024481285551406,
+    "rmse": 0.4379319182688254
   },
   "track_test": {
-    "n_pairs": 72,
-    "model_mean_km": 26.30469236925461,
-    "persist_mean_km": 36.40840807832286
+    "n_pairs": 129,
+    "model_mean_km": 13.019527196804304,
+    "persist_mean_km": 12.721582965433464
   },
   "provenance": {
     "note": "SYN_PROXY until HURSAT/INSAT; storm-level split, test unseen"

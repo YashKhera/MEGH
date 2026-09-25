@@ -13,7 +13,10 @@ import sys
 import urllib.request
 from pathlib import Path
 
-IBTRACS_URL = "https://www.ncei.noaa.gov/pub/data/circulation/ibtracs/v04r01/ibtracs.v04r01.csv"
+IBTRACS_NI_URL = ("https://www.ncei.noaa.gov/data/international-best-track-archive-"
+                  "for-climate-stewardship-ibtracs/v04r00/access/csv/ibtracs.NI.list.v04r00.csv")
+# Legacy global-file URL (kept for reference; prefer the per-basin file above)
+IBTRACS_URL = IBTRACS_NI_URL
 NEEDED = ["SID", "NAME", "ISO_TIME", "LAT", "LON", "WMO_WIND", "WMO_PRES",
           "BASIN", "USA_WIND", "USA_PRES", "NEWDELHI_WIND"]
 

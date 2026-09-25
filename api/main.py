@@ -109,7 +109,17 @@ class ExplainIn(BaseModel):
 
 @app.post("/explain")
 def explain(inp: ExplainIn):
-    return {"answer": ("MEGH numbers come from ML checkpoints (intensity.pkl, track.pkl); "
-                       "full IMD/WMO/IBTrACS-cited RAG lands Day 3. "
-                       f"Question received: {inp.question[:280]}"),
-            "sources": [], "note": "RAG Day-3 stub — no LLM numbers invented."}
+    from rag.retrieve import retrieve, cite
+    from rag.rerank import rerank
+    from rag.prompts import template_answer
+    try:
+        chunks = rerank(inp.question, retrieve(inp.question, top_k=6))[:5]
+        answer = template_answer(inp.question, inp.prediction or {}, chunks)
+        sources = [{"id": c["id"], "title": c.get("title", ""),
+                    "source": c.get("source", ""), "url": c.get("url", ""),
+                    "citation": cite(c), "score": round(c.get("rerank_score", 0.0), 3)}
+                   for c in chunks]
+        note = "TF-IDF retrieval over local curated sources; template answer (no LLM key)."
+    except RuntimeError as e:
+        answer, sources, note = f"RAG index missing ({e}). Run python -m rag.ingest.", [], "index-missing"
+    return {"answer": answer, "sources": sources, "note": note}

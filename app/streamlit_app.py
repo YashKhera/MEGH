@@ -165,7 +165,10 @@ fig2.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0),
                    xaxis_title="fix (6-hourly)", yaxis_title="kt")
 st.plotly_chart(fig2, use_container_width=True)
 
-render_expl()
+render_expl(prediction={"class": cls, "confidence": conf, "wind_kts": wind,
+                         "next_6h": {"lat": round(mlat, 3), "lon": round(mlon, 3)},
+                         "uncertainty_km": round(unc, 1)},
+            use_api=(backend == "FastAPI :8000"))
 
 with st.expander("Evaluation (held-out test storms)"):
     for f in ("eval.json", "intensity_metrics.json", "track_metrics.json"):

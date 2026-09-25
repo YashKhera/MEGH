@@ -34,3 +34,17 @@ def test_api_predict():
     assert r.status_code == 200
     body = r.json()
     assert body["storm_detected"] and "next_6h" in body
+
+def test_rag_explain():
+    from rag.retrieve import retrieve
+    from fastapi.testclient import TestClient
+    from api.main import app
+    chunks = retrieve("Why was this a Very Severe Cyclonic Storm?", top_k=3)
+    assert chunks and chunks[0]["id"].startswith("imd_intensity_scale")
+    c = TestClient(app)
+    r = c.post("/explain", json={"question": "Why VSCS?",
+                                 "prediction": {"class": "Very Severe Cyclonic Storm",
+                                                "confidence": 0.87, "wind_kts": 72.4}})
+    assert r.status_code == 200
+    body = r.json()
+    assert "72" in body["answer"] and len(body["sources"]) > 0  # numbers pass through, cited

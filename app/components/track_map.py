@@ -1,3 +1,27 @@
-"""Track map placeholder — actual vs predicted."""
+"""Track map: full best-track + travelled-so-far + MEGH 6h + persistence + actual next."""
 import streamlit as st
-def render(): st.subheader("Actual vs predicted track")
+import plotly.express as px
+
+def render(fixes, idx, pred=None):
+    """pred: dict(lat, lon, plat, plon, alat, alon) or None."""
+    lats_all = [float(r["latitude"]) for r in fixes]
+    lons_all = [float(r["longitude"]) for r in fixes]
+    lats_so = [float(r["latitude"]) for r in fixes[:idx + 1]]
+    lons_so = [float(r["longitude"]) for r in fixes[:idx + 1]]
+    lat0, lon0 = lats_so[-1], lons_so[-1]
+    fig = px.line_map(lat=lats_all, lon=lons_all, zoom=4, height=420)
+    fig.update_traces(line=dict(color="gray", width=2), name="best track (full)", showlegend=True)
+    fig.add_scattermap(lat=lats_so, lon=lons_so, mode="lines+markers",
+                       marker=dict(size=7, color="blue"), line=dict(color="blue", width=3),
+                       name="travelled")
+    if pred:
+        fig.add_scattermap(lat=[pred["lat"]], lon=[pred["lon"]], mode="markers+text",
+                           text=["MEGH 6h"], marker=dict(size=13, color="red"), name="MEGH 6h")
+        fig.add_scattermap(lat=[pred["plat"]], lon=[pred["plon"]], mode="markers+text",
+                           text=["persist"], marker=dict(size=11, color="orange"), name="persistence")
+        if pred.get("alat") is not None:
+            fig.add_scattermap(lat=[pred["alat"]], lon=[pred["alon"]], mode="markers+text",
+                               text=["actual"], marker=dict(size=13, color="green"), name="actual next")
+    fig.update_layout(margin=dict(l=0, r=0, t=30, b=0),
+                      title=f"Track — fix {idx + 1}/{len(fixes)} @ {lat0:.2f}, {lon0:.2f}")
+    st.plotly_chart(fig, use_container_width=True)

@@ -1,0 +1,10 @@
+# Requires Python 3.11/3.12 per TRD §2
+-r requirements-base.txt
+torch
+torchvision
+timm
+xarray
+netCDF4
+opencv-python
+sentence-transformers
+faiss-cpu

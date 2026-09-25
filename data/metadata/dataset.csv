@@ -1,0 +1,401 @@
+storm_id,storm_name,basin,timestamp,satellite_source,image_path,channels,latitude,longitude,wind_kts,pressure_hpa,agency_status,derived_class,split
+DEMO001,Demo-1,NI,2023-10-01T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_000.png,IR_PROXY,10.568,87.821,31.3,,,Deep Depression,train
+DEMO001,Demo-1,NI,2023-10-01T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_001.png,IR_PROXY,10.987,87.567,36.7,,,Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-01T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_002.png,IR_PROXY,11.212,87.372,45.3,,,Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-01T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_003.png,IR_PROXY,11.395,87.038,51.9,,,Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-02T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_004.png,IR_PROXY,11.66,87.093,52.4,,,Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-02T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_005.png,IR_PROXY,11.958,87.042,55.8,,,Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-02T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_006.png,IR_PROXY,12.476,86.942,55.0,,,Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-02T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_007.png,IR_PROXY,13.05,86.825,60.8,,,Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-03T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_008.png,IR_PROXY,13.466,86.252,60.8,,,Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-03T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_009.png,IR_PROXY,13.949,85.789,56.5,,,Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-03T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_010.png,IR_PROXY,14.288,85.641,64.0,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-03T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_011.png,IR_PROXY,14.742,85.412,69.2,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-04T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_012.png,IR_PROXY,15.127,85.155,77.0,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-04T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_013.png,IR_PROXY,15.432,84.988,74.1,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-04T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_014.png,IR_PROXY,15.682,84.714,79.6,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-04T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_015.png,IR_PROXY,16.078,84.413,83.2,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-05T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_016.png,IR_PROXY,16.284,84.467,81.3,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-05T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_017.png,IR_PROXY,16.64,84.387,78.5,,,Very Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-05T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_018.png,IR_PROXY,16.885,84.206,89.9,,,Extremely Severe Cyclonic Storm,train
+DEMO001,Demo-1,NI,2023-10-05T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO001_019.png,IR_PROXY,17.118,84.142,88.3,,,Very Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-01T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_000.png,IR_PROXY,13.177,83.75,38.2,,,Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-02T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_001.png,IR_PROXY,13.335,83.763,40.1,,,Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-02T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_002.png,IR_PROXY,13.449,83.34,44.9,,,Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-02T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_003.png,IR_PROXY,13.67,83.243,49.0,,,Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-02T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_004.png,IR_PROXY,13.923,82.82,47.0,,,Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-03T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_005.png,IR_PROXY,14.208,82.614,45.1,,,Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-03T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_006.png,IR_PROXY,14.83,82.347,52.7,,,Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-03T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_007.png,IR_PROXY,15.317,82.582,52.9,,,Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-03T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_008.png,IR_PROXY,15.725,82.318,53.8,,,Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-04T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_009.png,IR_PROXY,16.246,82.292,54.8,,,Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-04T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_010.png,IR_PROXY,16.688,81.784,61.0,,,Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-04T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_011.png,IR_PROXY,16.926,81.401,70.1,,,Very Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-04T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_012.png,IR_PROXY,17.208,81.208,77.0,,,Very Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-05T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_013.png,IR_PROXY,17.57,80.93,76.6,,,Very Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-05T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_014.png,IR_PROXY,17.904,80.845,78.2,,,Very Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-05T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_015.png,IR_PROXY,18.058,80.421,85.7,,,Very Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-05T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_016.png,IR_PROXY,18.195,80.268,89.2,,,Extremely Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-06T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_017.png,IR_PROXY,18.668,80.194,93.2,,,Extremely Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-06T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_018.png,IR_PROXY,18.961,79.606,98.7,,,Extremely Severe Cyclonic Storm,train
+DEMO002,Demo-2,NI,2023-10-06T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO002_019.png,IR_PROXY,19.205,79.29,102.7,,,Extremely Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-02T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_000.png,IR_PROXY,12.324,87.926,53.0,,,Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-02T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_001.png,IR_PROXY,12.436,87.621,56.8,,,Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-03T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_002.png,IR_PROXY,12.533,87.79,58.8,,,Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-03T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_003.png,IR_PROXY,12.924,87.541,58.9,,,Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-03T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_004.png,IR_PROXY,13.209,87.297,67.0,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-03T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_005.png,IR_PROXY,13.709,87.239,61.3,,,Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-04T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_006.png,IR_PROXY,13.909,87.293,62.2,,,Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-04T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_007.png,IR_PROXY,14.227,87.101,67.7,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-04T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_008.png,IR_PROXY,14.682,87.155,66.5,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-04T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_009.png,IR_PROXY,15.134,86.727,70.4,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-05T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_010.png,IR_PROXY,15.429,86.282,71.5,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-05T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_011.png,IR_PROXY,15.767,85.964,72.0,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-05T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_012.png,IR_PROXY,16.276,85.399,77.9,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-05T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_013.png,IR_PROXY,16.594,85.24,75.8,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-06T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_014.png,IR_PROXY,16.895,85.273,88.0,,,Very Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-06T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_015.png,IR_PROXY,17.345,84.99,94.5,,,Extremely Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-06T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_016.png,IR_PROXY,17.576,85.159,98.6,,,Extremely Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-06T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_017.png,IR_PROXY,18.039,84.786,100.6,,,Extremely Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-07T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_018.png,IR_PROXY,18.369,84.693,98.3,,,Extremely Severe Cyclonic Storm,train
+DEMO003,Demo-3,NI,2023-10-07T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO003_019.png,IR_PROXY,18.967,84.618,94.2,,,Extremely Severe Cyclonic Storm,train
+DEMO004,Demo-4,NI,2023-10-03T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_000.png,IR_PROXY,10.336,84.566,47.3,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-03T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_001.png,IR_PROXY,10.624,84.493,49.5,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-03T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_002.png,IR_PROXY,11.203,84.066,48.1,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-04T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_003.png,IR_PROXY,11.772,83.911,53.4,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-04T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_004.png,IR_PROXY,11.944,83.893,55.6,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-04T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_005.png,IR_PROXY,12.249,83.527,57.8,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-04T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_006.png,IR_PROXY,12.586,83.384,57.7,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-05T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_007.png,IR_PROXY,13.088,83.074,60.4,,,Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-05T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_008.png,IR_PROXY,13.331,83.266,67.0,,,Very Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-05T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_009.png,IR_PROXY,13.464,83.343,71.1,,,Very Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-05T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_010.png,IR_PROXY,13.769,82.792,81.4,,,Very Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-06T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_011.png,IR_PROXY,14.41,82.597,90.6,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-06T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_012.png,IR_PROXY,14.702,82.225,93.5,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-06T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_013.png,IR_PROXY,15.073,81.905,94.4,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-06T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_014.png,IR_PROXY,15.568,81.168,95.8,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-07T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_015.png,IR_PROXY,16.003,80.988,100.6,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-07T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_016.png,IR_PROXY,16.371,80.905,98.7,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-07T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_017.png,IR_PROXY,16.779,80.43,89.8,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-07T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_018.png,IR_PROXY,17.328,80.098,96.2,,,Extremely Severe Cyclonic Storm,test
+DEMO004,Demo-4,NI,2023-10-08T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO004_019.png,IR_PROXY,17.556,79.719,105.7,,,Extremely Severe Cyclonic Storm,test
+DEMO005,Demo-5,NI,2023-10-04T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_000.png,IR_PROXY,8.466,82.051,58.7,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-04T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_001.png,IR_PROXY,8.985,81.91,58.1,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-04T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_002.png,IR_PROXY,9.336,81.93,57.0,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-04T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_003.png,IR_PROXY,9.896,81.767,58.8,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-05T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_004.png,IR_PROXY,10.117,81.44,67.5,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-05T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_005.png,IR_PROXY,10.42,81.113,67.9,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-05T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_006.png,IR_PROXY,10.693,80.713,66.3,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-05T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_007.png,IR_PROXY,11.061,80.391,67.9,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-06T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_008.png,IR_PROXY,11.56,80.116,62.1,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-06T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_009.png,IR_PROXY,11.897,79.901,64.3,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-06T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_010.png,IR_PROXY,12.094,79.739,68.2,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-06T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_011.png,IR_PROXY,12.418,79.282,66.7,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-07T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_012.png,IR_PROXY,12.923,79.018,58.1,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-07T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_013.png,IR_PROXY,13.018,78.708,59.1,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-07T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_014.png,IR_PROXY,13.363,78.493,55.3,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-07T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_015.png,IR_PROXY,13.874,78.505,55.4,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-08T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_016.png,IR_PROXY,14.329,77.906,59.2,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-08T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_017.png,IR_PROXY,14.604,77.59,59.5,,,Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-08T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_018.png,IR_PROXY,14.994,77.235,64.8,,,Very Severe Cyclonic Storm,train
+DEMO005,Demo-5,NI,2023-10-08T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO005_019.png,IR_PROXY,15.461,76.615,69.7,,,Very Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-04T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_000.png,IR_PROXY,10.689,84.237,37.5,,,Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-05T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_001.png,IR_PROXY,11.014,84.149,34.4,,,Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-05T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_002.png,IR_PROXY,11.282,84.015,30.8,,,Deep Depression,train
+DEMO006,Demo-6,NI,2023-10-05T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_003.png,IR_PROXY,11.783,83.696,31.9,,,Deep Depression,train
+DEMO006,Demo-6,NI,2023-10-05T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_004.png,IR_PROXY,12.288,83.569,29.0,,,Deep Depression,train
+DEMO006,Demo-6,NI,2023-10-06T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_005.png,IR_PROXY,12.757,83.333,33.3,,,Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-06T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_006.png,IR_PROXY,13.211,83.124,38.0,,,Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-06T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_007.png,IR_PROXY,13.63,82.587,49.1,,,Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-06T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_008.png,IR_PROXY,14.267,81.974,48.9,,,Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-07T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_009.png,IR_PROXY,14.823,81.957,54.9,,,Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-07T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_010.png,IR_PROXY,15.409,81.491,57.8,,,Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-07T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_011.png,IR_PROXY,15.666,81.288,59.9,,,Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-07T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_012.png,IR_PROXY,15.585,80.793,58.9,,,Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-08T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_013.png,IR_PROXY,15.8,80.204,59.7,,,Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-08T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_014.png,IR_PROXY,16.18,79.56,64.1,,,Very Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-08T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_015.png,IR_PROXY,16.246,79.166,70.8,,,Very Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-08T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_016.png,IR_PROXY,16.616,79.115,65.4,,,Very Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-09T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_017.png,IR_PROXY,17.057,78.87,68.3,,,Very Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-09T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_018.png,IR_PROXY,17.453,78.614,73.5,,,Very Severe Cyclonic Storm,train
+DEMO006,Demo-6,NI,2023-10-09T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO006_019.png,IR_PROXY,17.893,78.535,77.1,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-05T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_000.png,IR_PROXY,8.798,88.2,50.7,,,Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-05T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_001.png,IR_PROXY,9.218,88.134,56.8,,,Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-06T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_002.png,IR_PROXY,9.639,87.725,63.2,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-06T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_003.png,IR_PROXY,9.998,87.679,62.4,,,Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-06T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_004.png,IR_PROXY,10.445,87.843,64.0,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-06T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_005.png,IR_PROXY,10.755,87.767,69.3,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-07T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_006.png,IR_PROXY,11.266,87.72,72.2,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-07T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_007.png,IR_PROXY,11.747,87.323,79.3,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-07T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_008.png,IR_PROXY,11.857,87.277,79.2,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-07T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_009.png,IR_PROXY,12.246,87.048,80.8,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-08T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_010.png,IR_PROXY,12.718,86.525,88.8,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-08T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_011.png,IR_PROXY,13.132,85.957,85.5,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-08T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_012.png,IR_PROXY,13.338,85.929,86.9,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-08T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_013.png,IR_PROXY,13.77,85.805,82.9,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-09T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_014.png,IR_PROXY,13.878,85.44,84.1,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-09T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_015.png,IR_PROXY,14.472,85.001,86.4,,,Very Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-09T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_016.png,IR_PROXY,14.594,84.358,90.9,,,Extremely Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-09T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_017.png,IR_PROXY,14.93,83.525,97.3,,,Extremely Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-10T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_018.png,IR_PROXY,15.282,83.379,104.1,,,Extremely Severe Cyclonic Storm,train
+DEMO007,Demo-7,NI,2023-10-10T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO007_019.png,IR_PROXY,15.606,82.888,102.5,,,Extremely Severe Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-06T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_000.png,IR_PROXY,12.524,85.31,27.2,,,Depression,train
+DEMO008,Demo-8,NI,2023-10-06T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_001.png,IR_PROXY,13.017,85.036,36.3,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-06T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_002.png,IR_PROXY,13.359,84.758,27.7,,,Depression,train
+DEMO008,Demo-8,NI,2023-10-07T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_003.png,IR_PROXY,13.626,84.491,26.2,,,Depression,train
+DEMO008,Demo-8,NI,2023-10-07T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_004.png,IR_PROXY,13.885,84.257,32.2,,,Deep Depression,train
+DEMO008,Demo-8,NI,2023-10-07T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_005.png,IR_PROXY,14.009,83.882,33.3,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-07T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_006.png,IR_PROXY,14.515,83.74,37.3,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-08T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_007.png,IR_PROXY,14.95,83.259,34.3,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-08T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_008.png,IR_PROXY,15.691,83.052,37.3,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-08T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_009.png,IR_PROXY,16.013,82.766,36.1,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-08T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_010.png,IR_PROXY,16.387,82.457,32.8,,,Deep Depression,train
+DEMO008,Demo-8,NI,2023-10-09T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_011.png,IR_PROXY,16.858,82.494,35.9,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-09T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_012.png,IR_PROXY,17.427,82.074,38.0,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-09T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_013.png,IR_PROXY,17.836,81.898,34.8,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-09T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_014.png,IR_PROXY,18.108,81.118,39.7,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-10T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_015.png,IR_PROXY,18.376,80.872,46.0,,,Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-10T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_016.png,IR_PROXY,18.78,80.349,49.6,,,Severe Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-10T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_017.png,IR_PROXY,19.133,79.927,50.3,,,Severe Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-10T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_018.png,IR_PROXY,19.501,79.816,53.2,,,Severe Cyclonic Storm,train
+DEMO008,Demo-8,NI,2023-10-11T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO008_019.png,IR_PROXY,19.855,79.505,53.7,,,Severe Cyclonic Storm,train
+DEMO009,Demo-9,NI,2023-10-07T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_000.png,IR_PROXY,12.402,85.404,41.4,,,Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-07T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_001.png,IR_PROXY,12.855,85.387,43.4,,,Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-07T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_002.png,IR_PROXY,12.825,85.234,50.3,,,Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-07T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_003.png,IR_PROXY,13.147,84.697,57.4,,,Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-08T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_004.png,IR_PROXY,13.365,84.455,57.6,,,Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-08T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_005.png,IR_PROXY,13.78,84.1,59.0,,,Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-08T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_006.png,IR_PROXY,14.157,83.919,59.2,,,Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-08T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_007.png,IR_PROXY,14.409,84.008,64.2,,,Very Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-09T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_008.png,IR_PROXY,14.963,83.865,76.4,,,Very Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-09T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_009.png,IR_PROXY,15.029,83.576,82.4,,,Very Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-09T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_010.png,IR_PROXY,15.574,83.231,79.9,,,Very Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-09T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_011.png,IR_PROXY,15.911,82.93,86.4,,,Very Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-10T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_012.png,IR_PROXY,16.318,82.813,90.9,,,Extremely Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-10T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_013.png,IR_PROXY,16.537,82.823,91.5,,,Extremely Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-10T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_014.png,IR_PROXY,16.714,82.769,86.8,,,Very Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-10T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_015.png,IR_PROXY,17.321,82.459,89.6,,,Extremely Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-11T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_016.png,IR_PROXY,17.716,82.318,88.5,,,Very Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-11T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_017.png,IR_PROXY,17.725,82.246,92.4,,,Extremely Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-11T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_018.png,IR_PROXY,18.361,82.207,90.9,,,Extremely Severe Cyclonic Storm,test
+DEMO009,Demo-9,NI,2023-10-11T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO009_019.png,IR_PROXY,18.89,82.362,103.6,,,Extremely Severe Cyclonic Storm,test
+DEMO010,Demo-10,NI,2023-10-07T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_000.png,IR_PROXY,9.466,86.806,48.9,,,Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-08T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_001.png,IR_PROXY,9.9,86.832,57.0,,,Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-08T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_002.png,IR_PROXY,10.231,86.696,64.4,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-08T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_003.png,IR_PROXY,10.336,86.317,71.2,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-08T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_004.png,IR_PROXY,10.718,86.195,71.3,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-09T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_005.png,IR_PROXY,10.931,85.981,80.4,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-09T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_006.png,IR_PROXY,11.179,85.875,73.7,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-09T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_007.png,IR_PROXY,11.547,85.626,69.5,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-09T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_008.png,IR_PROXY,11.682,85.687,64.6,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-10T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_009.png,IR_PROXY,12.048,85.374,71.8,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-10T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_010.png,IR_PROXY,12.311,85.161,77.9,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-10T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_011.png,IR_PROXY,12.589,84.64,82.9,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-10T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_012.png,IR_PROXY,12.756,84.546,79.6,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-11T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_013.png,IR_PROXY,13.096,84.429,80.2,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-11T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_014.png,IR_PROXY,13.694,84.094,86.2,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-11T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_015.png,IR_PROXY,14.0,84.005,82.0,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-11T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_016.png,IR_PROXY,14.196,83.952,83.2,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-12T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_017.png,IR_PROXY,14.39,83.891,84.7,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-12T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_018.png,IR_PROXY,14.682,83.942,87.7,,,Very Severe Cyclonic Storm,train
+DEMO010,Demo-10,NI,2023-10-12T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO010_019.png,IR_PROXY,14.93,83.51,89.2,,,Extremely Severe Cyclonic Storm,train
+DEMO011,Demo-11,NI,2023-10-08T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_000.png,IR_PROXY,10.173,85.583,45.8,,,Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-08T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_001.png,IR_PROXY,10.231,85.164,49.0,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-09T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_002.png,IR_PROXY,10.681,85.095,54.3,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-09T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_003.png,IR_PROXY,11.205,84.915,54.0,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-09T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_004.png,IR_PROXY,11.402,84.851,56.3,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-09T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_005.png,IR_PROXY,11.792,84.608,55.2,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-10T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_006.png,IR_PROXY,12.129,84.393,54.3,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-10T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_007.png,IR_PROXY,12.733,84.157,55.3,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-10T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_008.png,IR_PROXY,13.169,83.981,58.8,,,Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-10T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_009.png,IR_PROXY,13.404,83.729,67.1,,,Very Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-11T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_010.png,IR_PROXY,13.983,83.909,73.0,,,Very Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-11T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_011.png,IR_PROXY,14.515,83.674,78.2,,,Very Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-11T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_012.png,IR_PROXY,14.806,83.096,83.1,,,Very Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-11T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_013.png,IR_PROXY,15.006,82.439,83.1,,,Very Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-12T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_014.png,IR_PROXY,15.213,82.426,93.3,,,Extremely Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-12T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_015.png,IR_PROXY,15.42,81.974,92.2,,,Extremely Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-12T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_016.png,IR_PROXY,15.762,81.835,93.1,,,Extremely Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-12T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_017.png,IR_PROXY,16.074,81.821,91.6,,,Extremely Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-13T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_018.png,IR_PROXY,16.502,81.481,95.1,,,Extremely Severe Cyclonic Storm,val
+DEMO011,Demo-11,NI,2023-10-13T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO011_019.png,IR_PROXY,16.993,81.071,99.2,,,Extremely Severe Cyclonic Storm,val
+DEMO012,Demo-12,NI,2023-10-09T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_000.png,IR_PROXY,11.741,82.639,50.9,,,Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-09T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_001.png,IR_PROXY,11.76,82.404,44.4,,,Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-09T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_002.png,IR_PROXY,12.135,82.412,47.2,,,Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-10T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_003.png,IR_PROXY,12.508,82.065,45.1,,,Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-10T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_004.png,IR_PROXY,12.945,81.701,42.5,,,Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-10T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_005.png,IR_PROXY,13.519,81.251,51.0,,,Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-10T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_006.png,IR_PROXY,13.978,80.905,59.3,,,Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-11T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_007.png,IR_PROXY,14.313,80.528,61.8,,,Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-11T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_008.png,IR_PROXY,14.544,80.72,64.5,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-11T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_009.png,IR_PROXY,14.695,80.802,63.4,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-11T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_010.png,IR_PROXY,15.008,80.676,73.3,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-12T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_011.png,IR_PROXY,15.333,80.527,76.3,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-12T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_012.png,IR_PROXY,15.716,80.206,73.5,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-12T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_013.png,IR_PROXY,16.039,80.338,76.6,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-12T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_014.png,IR_PROXY,16.589,80.163,76.5,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-13T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_015.png,IR_PROXY,16.904,80.068,78.4,,,Very Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-13T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_016.png,IR_PROXY,17.212,79.528,91.6,,,Extremely Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-13T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_017.png,IR_PROXY,17.531,78.928,92.6,,,Extremely Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-13T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_018.png,IR_PROXY,17.998,78.921,92.9,,,Extremely Severe Cyclonic Storm,train
+DEMO012,Demo-12,NI,2023-10-14T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO012_019.png,IR_PROXY,18.409,78.779,96.6,,,Extremely Severe Cyclonic Storm,train
+DEMO013,Demo-13,NI,2023-10-10T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_000.png,IR_PROXY,13.705,84.746,31.9,,,Deep Depression,test
+DEMO013,Demo-13,NI,2023-10-10T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_001.png,IR_PROXY,13.902,84.644,33.5,,,Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-10T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_002.png,IR_PROXY,14.312,84.315,45.1,,,Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-10T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_003.png,IR_PROXY,14.789,83.809,47.3,,,Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-11T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_004.png,IR_PROXY,15.324,83.432,50.9,,,Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-11T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_005.png,IR_PROXY,15.736,83.122,49.0,,,Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-11T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_006.png,IR_PROXY,15.914,82.921,53.2,,,Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-11T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_007.png,IR_PROXY,16.148,83.032,50.8,,,Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-12T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_008.png,IR_PROXY,16.502,82.703,52.4,,,Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-12T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_009.png,IR_PROXY,16.795,82.301,61.5,,,Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-12T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_010.png,IR_PROXY,17.096,81.873,67.8,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-12T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_011.png,IR_PROXY,17.351,81.65,67.7,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-13T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_012.png,IR_PROXY,17.766,81.635,73.8,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-13T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_013.png,IR_PROXY,18.048,81.647,73.6,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-13T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_014.png,IR_PROXY,18.401,81.25,69.5,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-13T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_015.png,IR_PROXY,18.644,81.265,68.0,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-14T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_016.png,IR_PROXY,18.73,80.878,70.0,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-14T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_017.png,IR_PROXY,18.831,80.711,70.0,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-14T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_018.png,IR_PROXY,19.52,80.624,71.4,,,Very Severe Cyclonic Storm,test
+DEMO013,Demo-13,NI,2023-10-14T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO013_019.png,IR_PROXY,19.855,80.319,74.7,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-10T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_000.png,IR_PROXY,13.047,83.767,51.2,,,Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-11T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_001.png,IR_PROXY,13.631,83.54,56.2,,,Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-11T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_002.png,IR_PROXY,13.738,83.513,47.9,,,Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-11T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_003.png,IR_PROXY,14.116,83.533,52.7,,,Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-11T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_004.png,IR_PROXY,14.624,83.782,54.0,,,Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-12T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_005.png,IR_PROXY,15.162,83.183,64.5,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-12T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_006.png,IR_PROXY,15.528,83.089,69.1,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-12T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_007.png,IR_PROXY,15.845,82.47,69.8,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-12T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_008.png,IR_PROXY,16.383,82.138,71.8,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-13T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_009.png,IR_PROXY,16.791,82.123,73.9,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-13T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_010.png,IR_PROXY,17.107,81.954,74.9,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-13T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_011.png,IR_PROXY,17.558,81.461,82.9,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-13T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_012.png,IR_PROXY,17.815,81.294,82.0,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-14T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_013.png,IR_PROXY,18.248,80.849,86.2,,,Very Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-14T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_014.png,IR_PROXY,18.653,80.464,93.8,,,Extremely Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-14T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_015.png,IR_PROXY,19.064,80.253,94.2,,,Extremely Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-14T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_016.png,IR_PROXY,19.309,79.631,97.0,,,Extremely Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-15T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_017.png,IR_PROXY,19.769,79.374,96.4,,,Extremely Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-15T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_018.png,IR_PROXY,20.262,79.378,98.0,,,Extremely Severe Cyclonic Storm,test
+DEMO014,Demo-14,NI,2023-10-15T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO014_019.png,IR_PROXY,20.697,79.061,103.1,,,Extremely Severe Cyclonic Storm,test
+DEMO015,Demo-15,NI,2023-10-11T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_000.png,IR_PROXY,13.341,87.048,32.1,,,Deep Depression,val
+DEMO015,Demo-15,NI,2023-10-11T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_001.png,IR_PROXY,13.703,86.754,40.0,,,Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-12T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_002.png,IR_PROXY,14.16,86.307,39.3,,,Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-12T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_003.png,IR_PROXY,14.528,85.988,43.3,,,Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-12T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_004.png,IR_PROXY,14.779,85.691,50.4,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-12T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_005.png,IR_PROXY,15.189,85.282,57.1,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-13T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_006.png,IR_PROXY,15.644,84.936,56.6,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-13T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_007.png,IR_PROXY,16.05,84.459,62.3,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-13T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_008.png,IR_PROXY,16.36,84.387,57.9,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-13T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_009.png,IR_PROXY,16.337,83.926,57.8,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-14T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_010.png,IR_PROXY,16.636,83.74,60.5,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-14T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_011.png,IR_PROXY,17.062,83.575,60.6,,,Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-14T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_012.png,IR_PROXY,17.261,83.373,66.3,,,Very Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-14T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_013.png,IR_PROXY,17.701,83.081,71.4,,,Very Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-15T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_014.png,IR_PROXY,18.08,82.902,74.5,,,Very Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-15T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_015.png,IR_PROXY,18.448,82.87,67.8,,,Very Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-15T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_016.png,IR_PROXY,18.777,82.304,80.2,,,Very Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-15T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_017.png,IR_PROXY,18.987,82.073,82.2,,,Very Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-16T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_018.png,IR_PROXY,19.247,81.702,86.6,,,Very Severe Cyclonic Storm,val
+DEMO015,Demo-15,NI,2023-10-16T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO015_019.png,IR_PROXY,19.476,81.44,89.0,,,Extremely Severe Cyclonic Storm,val
+DEMO016,Demo-16,NI,2023-10-12T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_000.png,IR_PROXY,12.006,84.481,37.0,,,Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-12T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_001.png,IR_PROXY,12.438,84.465,33.8,,,Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-12T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_002.png,IR_PROXY,12.95,84.334,41.6,,,Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-13T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_003.png,IR_PROXY,13.37,84.117,41.3,,,Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-13T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_004.png,IR_PROXY,13.577,84.239,47.2,,,Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-13T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_005.png,IR_PROXY,13.875,84.262,51.6,,,Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-13T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_006.png,IR_PROXY,14.093,83.995,49.2,,,Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-14T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_007.png,IR_PROXY,14.399,83.768,46.5,,,Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-14T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_008.png,IR_PROXY,14.842,83.6,46.2,,,Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-14T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_009.png,IR_PROXY,15.308,83.625,56.0,,,Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-14T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_010.png,IR_PROXY,15.935,83.459,56.7,,,Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-15T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_011.png,IR_PROXY,16.332,83.405,63.4,,,Very Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-15T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_012.png,IR_PROXY,16.558,83.399,61.2,,,Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-15T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_013.png,IR_PROXY,16.805,82.936,65.9,,,Very Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-15T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_014.png,IR_PROXY,17.133,82.617,71.3,,,Very Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-16T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_015.png,IR_PROXY,17.783,82.298,73.1,,,Very Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-16T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_016.png,IR_PROXY,18.308,81.791,65.3,,,Very Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-16T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_017.png,IR_PROXY,18.66,81.64,67.6,,,Very Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-16T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_018.png,IR_PROXY,18.931,81.852,70.9,,,Very Severe Cyclonic Storm,train
+DEMO016,Demo-16,NI,2023-10-17T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO016_019.png,IR_PROXY,19.001,81.461,73.4,,,Very Severe Cyclonic Storm,train
+DEMO017,Demo-17,NI,2023-10-13T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_000.png,IR_PROXY,13.217,82.757,26.0,,,Depression,val
+DEMO017,Demo-17,NI,2023-10-13T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_001.png,IR_PROXY,13.545,82.703,20.0,,,Depression,val
+DEMO017,Demo-17,NI,2023-10-13T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_002.png,IR_PROXY,13.895,82.255,27.8,,,Depression,val
+DEMO017,Demo-17,NI,2023-10-13T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_003.png,IR_PROXY,14.336,82.02,30.8,,,Deep Depression,val
+DEMO017,Demo-17,NI,2023-10-14T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_004.png,IR_PROXY,14.755,81.354,29.0,,,Deep Depression,val
+DEMO017,Demo-17,NI,2023-10-14T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_005.png,IR_PROXY,14.99,81.085,30.6,,,Deep Depression,val
+DEMO017,Demo-17,NI,2023-10-14T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_006.png,IR_PROXY,15.275,80.921,31.8,,,Deep Depression,val
+DEMO017,Demo-17,NI,2023-10-14T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_007.png,IR_PROXY,15.593,80.535,36.7,,,Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-15T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_008.png,IR_PROXY,15.956,80.272,36.4,,,Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-15T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_009.png,IR_PROXY,16.337,80.101,40.3,,,Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-15T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_010.png,IR_PROXY,16.56,79.746,45.1,,,Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-15T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_011.png,IR_PROXY,16.957,79.448,41.8,,,Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-16T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_012.png,IR_PROXY,17.302,79.312,49.5,,,Severe Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-16T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_013.png,IR_PROXY,17.969,78.998,51.0,,,Severe Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-16T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_014.png,IR_PROXY,18.6,79.013,55.2,,,Severe Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-16T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_015.png,IR_PROXY,18.712,78.59,57.1,,,Severe Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-17T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_016.png,IR_PROXY,19.179,78.131,60.9,,,Severe Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-17T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_017.png,IR_PROXY,19.529,77.93,62.5,,,Severe Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-17T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_018.png,IR_PROXY,20.152,77.694,54.0,,,Severe Cyclonic Storm,val
+DEMO017,Demo-17,NI,2023-10-17T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO017_019.png,IR_PROXY,20.352,77.442,60.2,,,Severe Cyclonic Storm,val
+DEMO018,Demo-18,NI,2023-10-13T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_000.png,IR_PROXY,9.798,84.234,39.9,,,Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-14T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_001.png,IR_PROXY,10.196,83.952,40.3,,,Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-14T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_002.png,IR_PROXY,10.648,83.699,43.6,,,Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-14T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_003.png,IR_PROXY,10.969,83.596,40.5,,,Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-14T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_004.png,IR_PROXY,11.159,83.506,37.6,,,Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-15T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_005.png,IR_PROXY,11.313,83.272,49.6,,,Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-15T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_006.png,IR_PROXY,11.512,83.183,49.5,,,Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-15T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_007.png,IR_PROXY,11.847,83.068,57.4,,,Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-15T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_008.png,IR_PROXY,12.228,83.005,63.4,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-16T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_009.png,IR_PROXY,12.543,82.636,67.5,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-16T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_010.png,IR_PROXY,13.057,82.366,71.1,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-16T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_011.png,IR_PROXY,13.387,82.034,67.4,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-16T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_012.png,IR_PROXY,13.702,81.838,76.9,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-17T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_013.png,IR_PROXY,13.884,81.636,75.1,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-17T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_014.png,IR_PROXY,14.299,81.376,79.7,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-17T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_015.png,IR_PROXY,14.621,81.412,87.0,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-17T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_016.png,IR_PROXY,14.909,81.367,87.6,,,Very Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-18T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_017.png,IR_PROXY,15.191,80.994,90.4,,,Extremely Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-18T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_018.png,IR_PROXY,15.497,80.659,91.0,,,Extremely Severe Cyclonic Storm,train
+DEMO018,Demo-18,NI,2023-10-18T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO018_019.png,IR_PROXY,15.742,80.236,95.7,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-14T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_000.png,IR_PROXY,11.905,88.464,55.5,,,Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-14T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_001.png,IR_PROXY,12.462,88.085,66.4,,,Very Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-15T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_002.png,IR_PROXY,12.894,88.174,72.4,,,Very Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-15T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_003.png,IR_PROXY,13.146,87.955,78.1,,,Very Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-15T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_004.png,IR_PROXY,13.311,87.92,79.4,,,Very Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-15T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_005.png,IR_PROXY,13.654,87.666,75.2,,,Very Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-16T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_006.png,IR_PROXY,14.185,87.624,84.9,,,Very Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-16T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_007.png,IR_PROXY,14.438,87.197,90.7,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-16T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_008.png,IR_PROXY,14.917,87.082,90.7,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-16T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_009.png,IR_PROXY,15.289,86.862,88.2,,,Very Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-17T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_010.png,IR_PROXY,15.599,86.715,91.9,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-17T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_011.png,IR_PROXY,16.159,86.308,102.4,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-17T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_012.png,IR_PROXY,16.508,85.78,102.4,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-17T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_013.png,IR_PROXY,16.789,85.679,109.7,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-18T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_014.png,IR_PROXY,17.132,85.331,113.3,,,Extremely Severe Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-18T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_015.png,IR_PROXY,17.368,85.078,120.4,,,Super Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-18T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_016.png,IR_PROXY,17.62,84.553,125.0,,,Super Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-18T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_017.png,IR_PROXY,17.809,84.362,124.1,,,Super Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-19T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_018.png,IR_PROXY,18.332,84.398,121.2,,,Super Cyclonic Storm,train
+DEMO019,Demo-19,NI,2023-10-19T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO019_019.png,IR_PROXY,18.531,83.792,121.1,,,Super Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-15T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_000.png,IR_PROXY,10.977,89.317,38.4,,,Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-15T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_001.png,IR_PROXY,11.161,89.054,51.9,,,Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-15T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_002.png,IR_PROXY,11.281,88.913,53.0,,,Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-16T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_003.png,IR_PROXY,11.519,88.721,54.7,,,Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-16T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_004.png,IR_PROXY,11.906,88.577,56.5,,,Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-16T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_005.png,IR_PROXY,12.437,88.454,62.9,,,Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-16T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_006.png,IR_PROXY,12.967,88.274,67.1,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-17T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_007.png,IR_PROXY,13.432,88.158,74.9,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-17T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_008.png,IR_PROXY,14.006,87.848,70.2,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-17T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_009.png,IR_PROXY,14.558,87.46,66.6,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-17T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_010.png,IR_PROXY,14.721,87.245,70.8,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-18T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_011.png,IR_PROXY,15.155,87.249,74.4,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-18T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_012.png,IR_PROXY,15.54,86.638,75.4,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-18T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_013.png,IR_PROXY,15.98,86.286,79.6,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-18T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_014.png,IR_PROXY,16.329,86.168,80.6,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-19T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_015.png,IR_PROXY,16.82,86.171,86.1,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-19T06:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_016.png,IR_PROXY,17.191,85.981,83.6,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-19T12:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_017.png,IR_PROXY,17.627,85.948,85.9,,,Very Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-19T18:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_018.png,IR_PROXY,17.761,85.44,94.0,,,Extremely Severe Cyclonic Storm,train
+DEMO020,Demo-20,NI,2023-10-20T00:00:00+00:00,SYN_PROXY,data/processed/frames/DEMO020_019.png,IR_PROXY,18.207,85.016,90.5,,,Extremely Severe Cyclonic Storm,train

@@ -1,0 +1,15 @@
+# Day-1 runtime is numpy/stdlib + Pillow + FastAPI/Streamlit only
+# (pandas/sklearn DLLs blocked by AppControl on this box; full TRD torch
+# stack needs Python 3.11/3.12 — see requirements-torch.txt).
+numpy
+Pillow
+fastapi
+pydantic
+uvicorn
+streamlit
+plotly
+folium
+pytest
+httpx
+requests
+tqdm

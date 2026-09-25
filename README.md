@@ -22,14 +22,22 @@ tests/      smoke/unit tests
 docs/       copy/link of spec docs
 ```
 
-## Quickstart
+## Quickstart (run from this folder — `api` only imports from the repo root)
 
 ```powershell
-python -m venv .venv; .\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-uvicorn api.main:app --reload
-streamlit run app/streamlit_app.py
+cd D:\SIH26070\Project70\MEGH_SIH26070_Docs\MEGH
+.\.venv\Scripts\python.exe -m uvicorn api.main:app --reload --port 8000
 ```
+
+Frontend (second terminal):
+
+```powershell
+cd D:\SIH26070\Project70\MEGH_SIH26070_Docs\MEGH\web
+npm run dev      # opens the dev server; API calls proxy to :8000
+```
+
+> `ModuleNotFoundError: No module named 'api'` means uvicorn was started from
+> the wrong folder — `cd` into this folder first.
 
 ## API (TRD §7)
 

@@ -7,7 +7,9 @@ const DEFAULT_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/sty
 
 const pt = (lon, lat) => ({
   type: 'FeatureCollection',
-  features: [{ type: 'Feature', geometry: { type: 'Point', coordinates: [lon, lat] }, properties: {} }],
+  features: lon == null || lat == null ? [] : [
+    { type: 'Feature', geometry: { type: 'Point', coordinates: [lon, lat] }, properties: {} },
+  ],
 })
 const line = (coords) => ({ type: 'Feature', geometry: { type: 'LineString', coordinates: coords } })
 
@@ -17,6 +19,7 @@ export default function TrackMap({ fixes, index, prediction, mapStyle }) {
   const popupRef = useRef(null)
   const [ready, setReady] = useState(false)
   const [failed, setFailed] = useState(null)
+  const [retry, setRetry] = useState(0)
   const sid = fixes[0]?.storm_id
   const style = mapStyle || DEFAULT_STYLE
 
@@ -43,7 +46,7 @@ export default function TrackMap({ fixes, index, prediction, mapStyle }) {
     })
     return () => { popupRef.current?.remove(); map.remove(); mapRef.current = null }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sid, style])
+  }, [sid, style, retry])
 
   // Push data into live sources — no rebuild while scrubbing / replaying.
   useEffect(() => {
@@ -89,7 +92,12 @@ export default function TrackMap({ fixes, index, prediction, mapStyle }) {
     const coords = fixes.map((f) => `${X(parseFloat(f.longitude))},${Y(parseFloat(f.latitude))}`).join(' ')
     return (
       <div className="card p-4">
-        <p className="text-sm text-red-400">Interactive map unavailable ({failed}). Static track:</p>
+        <div className="flex items-center justify-between">
+          <p className="text-sm text-red-400">Interactive map unavailable ({failed}). Static track:</p>
+          <button onClick={() => { setFailed(null); setRetry((r) => r + 1) }} className="btn-ghost !py-1 text-xs">
+            Retry map
+          </button>
+        </div>
         <svg viewBox="0 0 400 300" className="mt-2 w-full rounded-lg" style={{ background: 'rgb(var(--c-ink))' }}>
           <polyline points={coords} fill="none" stroke="#38bdf8" strokeWidth="2" />
           {prediction && <circle cx={X(prediction.next_6h.lon)} cy={Y(prediction.next_6h.lat)} r="6" fill="#ef4444" />}

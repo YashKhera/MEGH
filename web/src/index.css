@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0b1220;
+  color: #e2e8f0;
+}
+
+.maplibregl-popup-content {
+  background: #111a2e !important;
+  color: #e2e8f0 !important;
+  border: 1px solid #1e2a45;
+  border-radius: 8px;
+}

@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '^/(health|storms|storm|predict|explain|frames)': 'http://127.0.0.1:8000',
+      '^/(health|storms|storm|predict|explain|auth|metrics|frames)': 'http://127.0.0.1:8000',
     },
   },
 })

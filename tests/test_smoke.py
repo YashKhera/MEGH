@@ -48,3 +48,16 @@ def test_rag_explain():
     assert r.status_code == 200
     body = r.json()
     assert "72" in body["answer"] and len(body["sources"]) > 0  # numbers pass through, cited
+
+def test_auth_roundtrip():
+    import time
+    from fastapi.testclient import TestClient
+    from api.main import app
+    c = TestClient(app)
+    name = f"u{int(time.time() * 1000) % 1000000}"
+    r = c.post("/auth/signup", json={"name": name, "password": "secret123", "role": "analyst"})
+    assert r.status_code == 200, r.text
+    token = r.json()["token"]
+    assert c.get("/auth/me", headers={"Authorization": f"Bearer {token}"}).status_code == 200
+    assert c.post("/auth/login", json={"name": name, "password": "nope"}).status_code == 401
+    assert c.get("/auth/me", headers={"Authorization": "Bearer bogus"}).status_code == 401

@@ -34,7 +34,13 @@ export default function Cyclones() {
           {classes.map((c) => <option key={c}>{c}</option>)}
         </select>
       </div>
-      {err && <p className="mt-3 text-sm text-red-400">{err}</p>}
+      {err && (
+        <div className="card mt-4 border-red-900 p-4">
+          <p className="text-sm font-semibold text-red-400">Could not load the archive</p>
+          <p className="mt-1 font-mono text-xs t2">{err}</p>
+          <p className="mt-2 text-xs t2">Backend needed — run <code>uvicorn api.main:app --reload</code> in the repo root, then refresh.</p>
+        </div>
+      )}
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((s, i) => (
           <motion.div key={s.storm_id} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}

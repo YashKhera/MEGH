@@ -11,3 +11,6 @@ models/checkpoints/*
 .chroma/
 *.nc
 *.h5
+*.db
+*.db-journal
+rag/index.pkl

@@ -15,6 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from api import config as C
+from api import auth as auth_router
 from api.services.predict import get_predictors
 from api.services import rag_service
 from models import track as T
@@ -23,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 app = FastAPI(title=C.APP_TITLE, version=C.APP_VERSION)
 app.add_middleware(CORSMiddleware, allow_origins=C.CORS_ORIGINS,
                    allow_methods=["*"], allow_headers=["*"])
+app.include_router(auth_router.router)
 _frames = ROOT / "data" / "processed" / "frames"
 _frames.mkdir(parents=True, exist_ok=True)
 app.mount("/frames", StaticFiles(directory=_frames), name="frames")
@@ -150,7 +152,7 @@ if _DIST.exists():
 
     @app.get("/{path:path}")
     def spa(path: str):
-        if path.startswith(("health", "storms", "storm", "predict", "explain",
+        if path.startswith(("health", "storms", "storm", "predict", "explain", "auth",
                              "frames", "metrics", "docs", "openapi", "assets")):
             raise HTTPException(404, "unknown path")
         cand = _DIST / path

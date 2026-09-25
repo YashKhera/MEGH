@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/raw/*
+data/processed/*
+models/checkpoints/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/checkpoints/.gitkeep
+.chroma/
+*.nc
+*.h5

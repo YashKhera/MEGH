@@ -1,0 +1,21 @@
+# MEGH core stack (TRD §2) — Python 3.11/3.12
+torch
+torchvision
+timm
+scikit-learn
+numpy
+pandas
+xarray
+netCDF4
+Pillow
+opencv-python
+fastapi
+pydantic
+uvicorn
+streamlit
+plotly
+folium
+sentence-transformers
+faiss-cpu
+# chroma alternative: chromadb
+pytest

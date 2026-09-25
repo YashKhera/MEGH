@@ -1,0 +1,34 @@
+{
+  "test_storms": [
+    "DEMO004",
+    "DEMO009",
+    "DEMO013",
+    "DEMO014"
+  ],
+  "n_test_rows": 80,
+  "classification": {
+    "macro_f1": 0.48338208325181836,
+    "vision_only_macro_f1": 0.5239854562514661,
+    "labels": [
+      "Cyclonic Storm",
+      "Deep Depression",
+      "Depression",
+      "Extremely Severe Cyclonic Storm",
+      "Severe Cyclonic Storm",
+      "Super Cyclonic Storm",
+      "Very Severe Cyclonic Storm"
+    ]
+  },
+  "wind": {
+    "mae": 0.4536141869705405,
+    "rmse": 0.5653228166622005
+  },
+  "track_test": {
+    "n_pairs": 72,
+    "model_mean_km": 26.30469236925461,
+    "persist_mean_km": 36.40840807832286
+  },
+  "provenance": {
+    "note": "SYN_PROXY until HURSAT/INSAT; storm-level split, test unseen"
+  }
+}

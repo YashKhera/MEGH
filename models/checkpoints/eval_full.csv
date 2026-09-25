@@ -1,0 +1,81 @@
+true,pred,wind_true,wind_pred,conf
+Severe Cyclonic Storm,Cyclonic Storm,47.3,47.1580610936132,0.5666922307141398
+Severe Cyclonic Storm,Severe Cyclonic Storm,49.5,49.55874601874111,0.5310807824933397
+Severe Cyclonic Storm,Cyclonic Storm,48.1,47.796495280462615,0.7326441790716087
+Severe Cyclonic Storm,Severe Cyclonic Storm,53.4,53.06270486326243,0.5749911960171374
+Severe Cyclonic Storm,Severe Cyclonic Storm,55.6,55.066030444250266,0.7576770731081699
+Severe Cyclonic Storm,Severe Cyclonic Storm,57.8,57.84455472849289,0.7793972245827804
+Severe Cyclonic Storm,Severe Cyclonic Storm,57.7,57.287072341768635,0.7918622264104094
+Severe Cyclonic Storm,Severe Cyclonic Storm,60.4,60.65466328778088,0.6876752705688763
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,67.0,67.15010832808966,0.7267970100575618
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,71.1,71.22639041921987,0.9031405144589487
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,81.4,80.4718253102786,0.8486998085559339
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,90.6,90.41804515781871,0.5864614988825042
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,93.5,93.66580119542803,0.7400905050266517
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,94.4,93.6556975489651,0.9102063425673138
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,95.8,95.18420258491517,0.9176745341289351
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,100.6,100.46236547658896,0.9836052495557714
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,98.7,98.24040955951796,0.9668305620730814
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,89.8,89.62186765701313,0.8371145304298391
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,96.2,95.22670308292918,0.9600599615564598
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,105.7,105.66792401726926,0.9909802245463212
+Cyclonic Storm,Cyclonic Storm,41.4,41.11934279640627,0.600040350645998
+Cyclonic Storm,Cyclonic Storm,43.4,43.4661757545629,0.495450862189652
+Severe Cyclonic Storm,Severe Cyclonic Storm,50.3,50.21266679203673,0.6765989375167277
+Severe Cyclonic Storm,Severe Cyclonic Storm,57.4,56.79067481779652,0.7441797802949388
+Severe Cyclonic Storm,Severe Cyclonic Storm,57.6,56.75787922824584,0.7575522879624129
+Severe Cyclonic Storm,Severe Cyclonic Storm,59.0,59.47966111092644,0.7843061614932277
+Severe Cyclonic Storm,Severe Cyclonic Storm,59.2,58.44598562127848,0.7238615871431945
+Very Severe Cyclonic Storm,Severe Cyclonic Storm,64.2,63.69359144138016,0.5518182331532946
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,76.4,76.04870597475032,0.9331837175577318
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,82.4,82.38825318530927,0.8906398991547911
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,79.9,79.38587242928882,0.8284509630994726
+Very Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,86.4,85.49602412708445,0.587818250849508
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,90.9,90.87664009248734,0.8161606097537573
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,91.5,91.95531682809488,0.8842470576132003
+Very Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,86.8,86.5284513961945,0.730998271851266
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,89.6,89.29736153879873,0.5239853204112904
+Very Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,88.5,88.73936976453446,0.8391608950694561
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,92.4,91.7011237964951,0.9076016699074537
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,90.9,90.22456052204193,0.861097578231639
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,103.6,103.77564104386956,0.9380859592143078
+Deep Depression,Depression,31.9,31.869749122586995,0.638798346752187
+Cyclonic Storm,Deep Depression,33.5,33.65318194112672,0.48706861897794884
+Cyclonic Storm,Cyclonic Storm,45.1,45.271312731191315,0.5636763622812063
+Severe Cyclonic Storm,Severe Cyclonic Storm,47.3,47.24289579300277,0.7432931576232896
+Severe Cyclonic Storm,Severe Cyclonic Storm,50.9,50.14509017044612,0.6613691343301988
+Severe Cyclonic Storm,Severe Cyclonic Storm,49.0,48.581161037086524,0.8473663225793169
+Severe Cyclonic Storm,Severe Cyclonic Storm,53.2,53.22373620626626,0.7714619958058373
+Severe Cyclonic Storm,Severe Cyclonic Storm,50.8,50.23755805378365,0.4739509801324468
+Severe Cyclonic Storm,Severe Cyclonic Storm,52.4,51.05207846981001,0.5927445987382506
+Severe Cyclonic Storm,Severe Cyclonic Storm,61.5,61.62999531512426,0.5892466234017988
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,67.8,68.5413435917169,0.8068489856465036
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,67.7,66.49909973090507,0.6359256406596084
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,73.8,74.52720341363266,0.9020663485858474
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,73.6,72.21864645003457,0.7902344935026181
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,69.5,69.08941538552085,0.7931444741509995
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,68.0,68.75079863606413,0.8236375957019416
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,70.0,69.30490464154114,0.8072961835367334
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,70.0,69.75408714996017,0.8640761253827622
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,71.4,70.7570084464862,0.8674398824890768
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,74.7,74.94389857120494,0.7125777825520927
+Severe Cyclonic Storm,Severe Cyclonic Storm,51.2,50.642755019657486,0.519920374034668
+Severe Cyclonic Storm,Severe Cyclonic Storm,56.2,55.55192907214173,0.8119532155505262
+Severe Cyclonic Storm,Severe Cyclonic Storm,47.9,48.194240859697466,0.8189109233446399
+Severe Cyclonic Storm,Severe Cyclonic Storm,52.7,52.266169441967044,0.6804230273096219
+Severe Cyclonic Storm,Severe Cyclonic Storm,54.0,55.121430927110765,0.8175437172607491
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,64.5,65.19780328665145,0.5871638280886606
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,69.1,68.03555283741713,0.7654398075924587
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,69.8,70.00827612515891,0.8522510137783607
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,71.8,70.6511314386386,0.8764928240536553
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,73.9,73.12828394436178,0.8938392486595546
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,74.9,74.73427364568106,0.883199946647784
+Very Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,82.9,83.81470578192076,0.5106306546630112
+Very Severe Cyclonic Storm,Very Severe Cyclonic Storm,82.0,82.67439119237372,0.7057699481645591
+Very Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,86.2,86.02105085300997,0.7545746085554965
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,93.8,93.99645410341832,0.965468741764339
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,94.2,94.50176082454536,0.9724566894744351
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,97.0,97.29381764279077,0.9825464825781371
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,96.4,95.92537701807399,0.9806966573896962
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,98.0,97.88817496629812,0.9867379269934085
+Extremely Severe Cyclonic Storm,Extremely Severe Cyclonic Storm,103.1,103.41128619456643,0.9960296932782988

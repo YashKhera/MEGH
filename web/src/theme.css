@@ -1,0 +1,35 @@
+/* Extra theme-aware text utilities (pair with var-based surfaces). */
+.t1 { color: rgb(var(--fg)); }
+.t2 { color: rgb(var(--fg-soft)); }
+.t-accent { color: rgb(var(--c-accent)); }
+.card {
+  background: rgb(var(--c-panel));
+  border: 1px solid rgb(var(--c-line));
+  border-radius: 0.75rem;
+}
+.input {
+  background: rgb(var(--c-ink));
+  border: 1px solid rgb(var(--c-line));
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: rgb(var(--fg));
+  outline: none;
+  width: 100%;
+}
+.input:focus { border-color: rgb(var(--c-accent)); }
+.btn-primary {
+  background: rgb(var(--c-accent));
+  color: rgb(var(--c-ink));
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+.btn-ghost {
+  border: 1px solid rgb(var(--c-line));
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: rgb(var(--fg));
+}

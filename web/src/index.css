@@ -1,15 +1,53 @@
+/* Theme tokens: .dark (default) + light. Tailwind colors map to these vars. */
+:root {
+  --c-ink: 244 247 252;
+  --c-panel: 255 255 255;
+  --c-panel2: 241 245 249;
+  --c-line: 203 213 225;
+  --c-accent: 2 132 199;
+  --c-accent2: 124 58 237;
+  --c-muted: 100 116 139;
+  --fg: 15 23 42;
+  --fg-soft: 71 85 105;
+  --map-style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json";
+}
+
+.dark {
+  --c-ink: 11 18 32;
+  --c-panel: 17 26 46;
+  --c-panel2: 13 20 38;
+  --c-line: 30 42 69;
+  --c-accent: 56 189 248;
+  --c-accent2: 167 139 250;
+  --c-muted: 148 163 184;
+  --fg: 226 232 240;
+  --fg-soft: 148 163 184;
+  --map-style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background: #0b1220;
-  color: #e2e8f0;
+  background: rgb(var(--c-ink));
+  color: rgb(var(--fg));
 }
 
 .maplibregl-popup-content {
-  background: #111a2e !important;
-  color: #e2e8f0 !important;
-  border: 1px solid #1e2a45;
+  background: rgb(var(--c-panel)) !important;
+  color: rgb(var(--fg)) !important;
+  border: 1px solid rgb(var(--c-line));
   border-radius: 8px;
 }
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+.animate-floaty { animation: floaty 6s ease-in-out infinite; }
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow { animation: spin-slow 24s linear infinite; }

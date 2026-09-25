@@ -23,6 +23,7 @@ export const api = {
   storm: (id) => get(`/storm/${encodeURIComponent(id)}`),
   predict: (storm_id, timestamp) => post('/predict', { storm_id, timestamp }),
   explain: (question, prediction) => post('/explain', { question, prediction }),
+  metrics: () => get('/metrics'),
   frameUrl: (image_path) => {
     const f = image_path.split('/').pop()
     return `${BASE}/frames/${f}`

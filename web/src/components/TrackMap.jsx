@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react'
 import * as maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 
-// Dark basemap, no API key required.
-const STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
+// Basemap follows the theme (positron for light, dark-matter for dark); no API key.
+const DEFAULT_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
 
 function line(id, coords, color, width) {
   return {
@@ -25,7 +25,7 @@ function marker(id, coord, color, label) {
   }
 }
 
-export default function TrackMap({ fixes, index, prediction }) {
+export default function TrackMap({ fixes, index, prediction, mapStyle }) {
   const ref = useRef(null)
   const mapRef = useRef(null)
 
@@ -34,7 +34,7 @@ export default function TrackMap({ fixes, index, prediction }) {
   const center = travelled[travelled.length - 1]
 
   useEffect(() => {
-    const map = new maplibregl.Map({ container: ref.current, style: STYLE, center, zoom: 4 })
+    const map = new maplibregl.Map({ container: ref.current, style: mapStyle || DEFAULT_STYLE, center, zoom: 4 })
     mapRef.current = map
     map.on('load', () => {
       map.addLayer(line('full', full, '#64748b', 1.5))

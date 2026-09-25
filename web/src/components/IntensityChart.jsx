@@ -7,14 +7,14 @@ export default function IntensityChart({ fixes, index, mlWind }) {
     wind: parseFloat(f.wind_kts),
   }))
   return (
-    <div className="rounded-xl border border-line bg-panel p-4">
-      <h3 className="mb-2 text-sm font-semibold text-slate-300">Intensity timeline — wind (kt, 6-hourly)</h3>
+    <div className="card p-4">
+      <h3 className="mb-2 text-sm font-semibold t2">Intensity timeline — wind (kt, 6-hourly)</h3>
       <ResponsiveContainer width="100%" height={260}>
         <LineChart data={data}>
-          <CartesianGrid stroke="#1e2a45" />
-          <XAxis dataKey="i" stroke="#94a3b8" tick={{ fontSize: 11 }} />
-          <YAxis stroke="#94a3b8" tick={{ fontSize: 11 }} />
-          <Tooltip contentStyle={{ background: '#111a2e', border: '1px solid #1e2a45' }} />
+          <CartesianGrid stroke="rgb(var(--c-line))" />
+          <XAxis dataKey="i" stroke="rgb(var(--c-muted))" tick={{ fontSize: 11, fill: 'rgb(var(--c-muted))' }} />
+          <YAxis stroke="rgb(var(--c-muted))" tick={{ fontSize: 11, fill: 'rgb(var(--c-muted))' }} />
+          <Tooltip contentStyle={{ background: 'rgb(var(--c-panel))', border: '1px solid rgb(var(--c-line))' }} />
           <Line type="monotone" dataKey="wind" stroke="#38bdf8" dot={false} strokeWidth={2} name="Best-track wind" />
           {mlWind != null && (
             <ReferenceDot x={index} y={mlWind} r={6} fill="#ef4444" stroke="#fff" label={{ value: `ML ${mlWind.toFixed(0)}`, fill: '#fca5a5', fontSize: 11 }} />

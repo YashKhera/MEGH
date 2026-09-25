@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
       colors: {
-        ink: '#0b1220',
-        panel: '#111a2e',
-        line: '#1e2a45',
-        accent: '#38bdf8',
+        ink: 'rgb(var(--c-ink) / <alpha-value>)',
+        panel: 'rgb(var(--c-panel) / <alpha-value>)',
+        panel2: 'rgb(var(--c-panel2) / <alpha-value>)',
+        line: 'rgb(var(--c-line) / <alpha-value>)',
+        accent: 'rgb(var(--c-accent) / <alpha-value>)',
+        accent2: 'rgb(var(--c-accent2) / <alpha-value>)',
+        muted: 'rgb(var(--c-muted) / <alpha-value>)',
       },
     },
   },

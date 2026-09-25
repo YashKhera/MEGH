@@ -53,11 +53,14 @@ def summarize(s: list[dict]) -> dict:
     winds = [float(r["wind_kts"]) for r in s]
     peak = max(winds)
     # lifecycle: first class -> peak class
+    pi = int(np.argmax(winds))
     return {"storm_id": s[0]["storm_id"], "name": s[0]["storm_name"] or s[0]["storm_id"],
             "basin": s[0]["basin"], "split": s[0]["split"], "n_fixes": len(s),
             "start": s[0]["timestamp"], "end": s[-1]["timestamp"],
+            "genesis_lat": float(s[0]["latitude"]), "genesis_lon": float(s[0]["longitude"]),
             "peak_wind_kts": round(peak, 1),
-            "peak_class": s[int(np.argmax(winds))]["derived_class"],
+            "peak_class": s[pi]["derived_class"],
+            "peak_lat": float(s[pi]["latitude"]), "peak_lon": float(s[pi]["longitude"]),
             "current_class": s[-1]["derived_class"],
             "source": s[0]["satellite_source"]}
 
@@ -124,3 +127,33 @@ def predict(inp: PredictIn):
 @app.post("/explain")
 def explain(inp: ExplainIn):
     return rag_service.explain(inp.question, inp.prediction or {})
+
+@app.get("/metrics")
+def metrics():
+    """Held-out evaluation + model info for dashboards (dynamic, from checkpoints)."""
+    import json
+    out: dict = {"ml_backend": get_predictors().backend}
+    for f in ("eval.json", "intensity_metrics.json", "track_metrics.json"):
+        p = C.CKPT_DIR / f
+        if p.exists():
+            try:
+                out[f.replace(".json", "")] = json.loads(p.read_text(encoding="utf-8"))
+            except Exception:
+                pass
+    return out
+
+# ---- serve the React build (single-port org site: UI + API together) ----
+_DIST = ROOT / "web" / "dist"
+if _DIST.exists():
+    from fastapi.responses import FileResponse
+    app.mount("/assets", StaticFiles(directory=_DIST / "assets"), name="assets")
+
+    @app.get("/{path:path}")
+    def spa(path: str):
+        if path.startswith(("health", "storms", "storm", "predict", "explain",
+                             "frames", "metrics", "docs", "openapi", "assets")):
+            raise HTTPException(404, "unknown path")
+        cand = _DIST / path
+        if path and cand.is_file():
+            return FileResponse(cand)
+        return FileResponse(_DIST / "index.html")

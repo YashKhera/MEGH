@@ -10,6 +10,19 @@ def build_prompt(question: str, prediction: dict, chunks: list[dict]) -> str:
             f"EVIDENCE:\n{ev}\n\nQUESTION: {question}\n\n"
             "Answer in 4-6 sentences, then a 'Sources:' line listing chunk ids used.")
 
+def _clean(text: str, limit: int = 300) -> str:
+    """First content sentence, markdown headers stripped."""
+    lines = [ln.strip().lstrip("# ").strip() for ln in text.split("\n")]
+    lines = [ln for ln in lines if ln]
+    if not lines:
+        return ""
+    first = lines[0]
+    for sep in (". ", "; "):
+        if sep in first:
+            first = first.split(sep)[0] + "."
+            break
+    return first[:limit]
+
 def template_answer(question: str, prediction: dict, chunks: list[dict]) -> str:
     """Deterministic offline answer (no LLM key needed): prediction + evidence."""
     lines = []
@@ -24,8 +37,9 @@ def template_answer(question: str, prediction: dict, chunks: list[dict]) -> str:
             lines.append(f"6h movement: {nxt.get('lat')}, {nxt.get('lon')} "
                          f"(uncertainty {prediction.get('uncertainty_km', '?')} km).")
     for c in chunks[:3]:
-        first = c["text"].split("\n")[0][:280]
-        lines.append(f"Context [{c['id']}]: {first}")
-    lines.append("Full evidence with sources is listed below; RAG explains, it never "
+        snippet = _clean(c["text"])
+        if snippet:
+            lines.append(f"Evidence ({c.get('source', '?')}): {snippet}")
+    lines.append("Full cited sources are listed below; retrieval explains, it never "
                  "overwrites ML numbers.")
     return " ".join(lines)

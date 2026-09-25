@@ -56,7 +56,15 @@ def summarize(s: list[dict]) -> dict:
     peak = max(winds)
     # lifecycle: first class -> peak class
     pi = int(np.argmax(winds))
-    return {"storm_id": s[0]["storm_id"], "name": s[0]["storm_name"] or s[0]["storm_id"],
+    raw_name = (s[0]["storm_name"] or "").strip()
+    if not raw_name or raw_name.upper() in ("NOT_NAMED", "NOTNAMED", "UNNAMED", "-"):
+        # IBTrACS leaves weak systems unnamed — label by season + month instead.
+        try:
+            dt = _parse_ts(s[0]["timestamp"])
+            raw_name = f"Unnamed System · {dt.strftime('%b %Y')}"
+        except Exception:
+            raw_name = f"Unnamed System {s[0]['storm_id'][:4]}"
+    return {"storm_id": s[0]["storm_id"], "name": raw_name,
             "basin": s[0]["basin"], "split": s[0]["split"], "n_fixes": len(s),
             "start": s[0]["timestamp"], "end": s[-1]["timestamp"],
             "genesis_lat": float(s[0]["latitude"]), "genesis_lon": float(s[0]["longitude"]),
